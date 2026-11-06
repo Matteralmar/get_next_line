@@ -111,5 +111,5 @@ Through this project, I improved my understanding of:
 
 ## 👤 Author
 
-**Your Login** — 42 Student
+gvasylie
 
