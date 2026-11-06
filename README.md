@@ -36,18 +36,6 @@ You can change `BUFFER_SIZE` to test different buffer sizes.
 
 ## 🚀 Usage
 
-Include the appropriate header in your project:
-
-```c
-#include "get_next_line.h"
-```
-
-For the bonus version:
-
-```c
-#include "get_next_line_bonus.h"
-```
-
 Example:
 
 ```c
