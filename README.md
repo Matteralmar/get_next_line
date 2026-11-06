@@ -63,6 +63,16 @@ int main(void)
 }
 ```
 
+## 📋 Function Prototype
+
+```c
+char *get_next_line(int fd);
+```
+
+**Return values:**
+- A line read from the file descriptor, including `\n` if present.
+- `NULL` when there is nothing left to read or when an error occurs.
+
 ## ⭐ Bonus
 
 The bonus part extends the mandatory implementation by allowing multiple file descriptors to be read independently.
@@ -74,16 +84,6 @@ This means you can alternate between different files without losing the reading 
 - Maintain a separate static buffer for each file descriptor.
 - Read from different files in any order.
 - Preserve the remaining content of each file between function calls.
-
-## 📋 Function Prototype
-
-```c
-char *get_next_line(int fd);
-```
-
-**Return values:**
-- A line read from the file descriptor, including `\n` if present.
-- `NULL` when there is nothing left to read or when an error occurs.
 
 ## 🧠 What I Learned
 
