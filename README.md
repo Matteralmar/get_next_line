@@ -2,7 +2,7 @@
 
 ## 📖 Description
 
-**get_next_line** is a project from the 42 School curriculum. The goal is to create a function that reads a file or input stream line by line, returning one line at each function call.
+**get_next_line** is a project from the 42 School curriculum. The goal is to create a function that reads a file or input stream line by line, returning one line ending with a `\n` at each function call.
 
 The function must handle different file sizes and buffer sizes while managing memory efficiently. It also needs to work with multiple file descriptors without losing track of their individual reading positions.
 
